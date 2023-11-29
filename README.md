@@ -6,4 +6,4 @@ Jiachen Chen, Mengyang Li, Hu Han, Zhiming Zhao, and Xilin Chen. “SurgNet: Sel
 The authors are cleaning up the inference code, i.e., decoupling the inferencing code with the training code, checking the parameters related to inference code, and verifying the correctness of individual pretrained models. Then, the authors will put the inference code and pretrained models into this repository.
    
 ## 2. Application of the IVIS Intraoperative Vessel and Instrument Segmentation (IVIS) dataset: 
-Please refer to the End User License Agreement (EULA) [link] and submit the IVIS dataset application.
+Applicants for the IVIS dataset may refer to the End User License Agreement (EULA) [link] and submit an application. If the EULA completed and signed by the applicant is approved by our IRB, the applicant will be provided with a download link to the dataset.
