@@ -68,11 +68,15 @@ Get qualitative results:
 bash dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE}  --show-dir=${SAVE_FILE}
 # e.g., python test.py configs/upernet/EndoVisSub2017_upernet.py work_dirs/tmp/finetune_pvt.pth  --show-dir=work_dirs/val 
 ```
+
+### Acknowledgement
+
+The authors would like to thank Jiyang Tang for clearing up the code for this repository.
    
 ## 2. Application of the IVIS Intraoperative Vessel and Instrument Segmentation (IVIS) dataset: 
 Individuals interested in accessing the IVIS dataset are required to consult the End User License Agreement [EULA](https://github.com/HanHuCAS/SurgNet/raw/main/IVIS%20Database%20EULA(1.1).docx) and submit an application. Upon approval of the completed and signed EULA by our Institutional Review Board (IRB), the applicant will receive a download link to the dataset.
 
 ## 3. References
-[1] Xiang Li, Wenhai Wang, Lingfeng Yang, Jian Yang. Uniform Masking: Enabling MAE Pre-training for Pyramid-based Vision Transformers with Locality, arXiv:2205.10063, 2022. [code](https://github.com/implus/UM-MAE)
+[1] Xiang Li, Wenhai Wang, Lingfeng Yang, Jian Yang. Uniform Masking: Enabling MAE Pre-training for Pyramid-based Vision Transformers with Locality, arXiv:2205.10063, 2022. https://github.com/implus/UM-MAE
 
 [2] MMSegmentation: https://github.com/open-mmlab/mmsegmentation
