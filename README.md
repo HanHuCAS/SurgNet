@@ -3,8 +3,9 @@ This is the repository of the following work:
 
 Jiachen Chen, Mengyang Li, Hu Han, Zhiming Zhao, and Xilin Chen. “SurgNet: Self-supervised Pretraining with Semantic Consistency for Vessel and Instrument Segmentation in Surgical Images”, IEEE Transactions on Medical Imaging, 2023 (Accepted). [[paper]](https://ieeexplore.ieee.org/abstract/document/10354412)
 
-<img src="[Framework of SurgNet](https://github.com/HanHuCAS/SurgNet/blob/main/SurgNet_Framework.jpg)" width="50%" height="50%">
-![Framework of SurgNet](https://github.com/HanHuCAS/SurgNet/blob/main/SurgNet_Framework.jpg?raw=true)
+![Framework of SurgNet](https://raw.githubusercontent.com/HanHuCAS/SurgNet/main/SurgNet_Framework.png)
+
+The framework of our SurgNet for learning fundamental vessel and instrument features from unlabeled surgical images. (a) denotes SSPM, in which a region adjacency graph (RAG) $R_i$ is computed for an unlabeled surgical image $I_i$ based on local semantic consistency and is used for self-supervised pseudo-mask segmentation with a Transformer based encoder-decoder architecture. SSPM takes the input of patch embedding $B_i^I$ and positional embedding $B_i^P$, and generates a pseudo-mask $\hat{M}_i$. (b) denotes GMIM, in which patch embedding $B_i^{I'}$ from randomly masked image $I'_i$ and patch embedding $B_i^{\hat{M}}$ from pseudo-mask $\hat{M}_i$ are jointly used for image reconstruction based on a MAE architecture. Dashed lines show the gradient flow.
 
 ## 1. Pretrained Model and Inference Code:
 
