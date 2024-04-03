@@ -77,7 +77,7 @@ bash dist_test.sh ${CONFIG_FILE} ${CHECKPOINT_FILE}  --show-dir=${SAVE_FILE}
 
 The authors would like to thank Jiyang Tang for clearing up the code for this repository.
    
-## 2. Application of the IVIS Intraoperative Vessel and Instrument Segmentation (IVIS) dataset: 
+## 2. Applying the IVIS Intraoperative Vessel and Instrument Segmentation (IVIS) dataset for research: 
 Individuals interested in accessing the IVIS dataset are required to consult the End User License Agreement [EULA](https://github.com/HanHuCAS/SurgNet/raw/main/IVIS%20Database%20EULA(1.1).docx) and submit an application. Upon approval of the completed and signed EULA by our Institutional Review Board (IRB), the applicant will receive a download link to the dataset.
 
 ## 3. References
