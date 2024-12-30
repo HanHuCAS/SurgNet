@@ -2,6 +2,9 @@
 This is the repository of the following work:
 
 Jiachen Chen, Mengyang Li, Hu Han, Zhiming Zhao, and Xilin Chen. “SurgNet: Self-supervised Pretraining with Semantic Consistency for Vessel and Instrument Segmentation in Surgical Images”, vol. 43, no. 4, pp. 1513-1525, April 2024. [[paper]](https://ieeexplore.ieee.org/abstract/document/10354412)
+
+If you have questions about this repo, you may contact chenjiachen20[at]mails.ucas.edu.cn.
+
 ### BibTeX:
 <code>
 @article{ChenetalTMI24,
